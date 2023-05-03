@@ -4,6 +4,7 @@ data:
   POSTGRES_HOST: psql-udacity-3.cpgouc8noytu.us-east-1.rds.amazonaws.com
   POSTGRES_DB: postgres
   URL: http://localhost:8100
+  JWT_SECRET: testing
   AWS_BUCKET: arn:aws:s3:::udacity-746191753067-3
   AWS_REGION: us-east-1
   AWS_PROFILE: default
