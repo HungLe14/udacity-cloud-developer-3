@@ -1,8 +1,11 @@
 apiVersion: v1
 kind: ConfigMap
 data:
-  POSTGRES_HOST: { { POSTGRES_HOST } }
-  POSTGRES_DB: { { POSTGRES_DB } }
-  URL: { { URL } }
+  POSTGRES_HOST: psql-udacity-3.cpgouc8noytu.us-east-1.rds.amazonaws.com
+  POSTGRES_DB: postgres
+  URL: http://localhost:8100
+  AWS_BUCKET: arn:aws:s3:::udacity-746191753067-3
+  AWS_REGION: us-east-1
+  AWS_PROFILE: default
 metadata:
   name: env-config
