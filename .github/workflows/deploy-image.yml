@@ -34,5 +34,5 @@ jobs:
           docker tag udagram-api-feed:$GITHUB_SHA hungle14/udagram-api-feed:latest
           docker push hungle14/udagram-api-feed:latest
           docker build  -t udagram-api-user:$GITHUB_SHA -f ./udagram-api-user/Dockerfile ./udagram-api-user
-          docker tag :$GITHUB_SHA hungle14/udagram-api-user:latest
+          docker tag udagram-api-user:$GITHUB_SHA hungle14/udagram-api-user:latest
           docker push hungle14/udagram-api-user:latest
